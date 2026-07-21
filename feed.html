@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/feed.css">
+    <title>Feeds</title>
+  </head>
+  <body>
+  
+
+  <nav class="navbar">
+    <h2>Firebase Social App</h2>
+
+    <button id="logoutBtn">
+      Logout
+    </button>
+  </nav>
+
+  <main class="feed-container">
+
+    <div class="create-post">
+
+      <textarea
+        id="postContent"
+        placeholder="What's on your mind?"
+      ></textarea>
+
+      <button id="addPostBtn">
+        Publish Post
+      </button>
+
+    </div>
+
+    <div id="postsContainer">
+
+      <!-- Posts will be added here -->
+
+    </div>
+
+  </main>
+
+
+
+
+  <script type="module" src="/src/feed.js"></script>
+
+</body>
+</html>
+
+ 
